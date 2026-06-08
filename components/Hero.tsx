@@ -8,7 +8,7 @@ export function Hero() {
       <div className="absolute inset-0 z-[1] overflow-hidden">
         <Image
           alt="Powerful athlete training in a dramatic gym environment"
-          className="scale-in-anim object-cover object-[62%_center] brightness-[0.82] contrast-102 saturate-110 md:object-center md:brightness-[0.88]"
+          className="scale-in-anim object-cover object-[62%_center] brightness-[0.72] contrast-105 saturate-120 md:object-center md:brightness-[0.76]"
           fill
           priority
           quality={100}
@@ -16,7 +16,7 @@ export function Hero() {
           src={heroImage}
           unoptimized
         />
-        <div className="fade-in-anim absolute inset-0 bg-gradient-to-t from-black/85 via-black/30 to-black/5 md:via-black/15" />
+        <div className="fade-in-anim absolute inset-0 bg-gradient-to-t from-black/90 via-black/35 to-black/5 md:via-black/20" />
       </div>
 
       <div className="relative z-10 mx-auto w-full max-w-max-width px-4 sm:px-margin-mobile md:px-margin-desktop">
