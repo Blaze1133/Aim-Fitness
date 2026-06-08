@@ -76,7 +76,7 @@ export function Gallery() {
           >
             <button
               aria-label={`View ${image.alt} fullscreen`}
-              className="group relative w-full h-[180px] sm:h-[200px] cursor-pointer overflow-hidden rounded-xl transition-transform duration-200 active:scale-[0.97]"
+              className="group relative w-full h-[180px] sm:h-[200px] md:h-full cursor-pointer overflow-hidden rounded-xl transition-transform duration-200 active:scale-[0.97]"
               id={`gallery-image-${index}`}
               onClick={() => setLightboxIndex(index)}
               type="button"
